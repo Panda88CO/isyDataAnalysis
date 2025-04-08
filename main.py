@@ -16,7 +16,7 @@ import logging
 import time
 from urllib.parse import urlparse
 
-#import pyisy
+import pyisy
 from pyisy import ISY
 from pyisy.connection import ISYConnectionError, ISYInvalidAuthError, get_new_client_session
 from pyisy.constants import NODE_CHANGED_ACTIONS, SYSTEM_STATUS
